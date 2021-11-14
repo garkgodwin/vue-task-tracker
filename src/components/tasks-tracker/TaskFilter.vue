@@ -1,7 +1,7 @@
 <template>
   <div class="tasks-filter">
       <input type="text" :value="filterText" @input="changeText($event.target.value)">
-  </div>
+  </div> 
 </template>
 
 <script>

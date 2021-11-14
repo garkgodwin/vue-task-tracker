@@ -5,8 +5,7 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-import TaskTracker from './components/TasksTracker.vue';
+import TaskTracker from './components/TasksTracker.vue'; 
 
 export default {
   name: 'App',

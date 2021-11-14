@@ -2,7 +2,7 @@
   <li class="task" v-bind:class="{done: task.done}" v-on:click.self="updateTask(task.id)">
       {{task.text}}
       <span class="delete" v-on:click="deleteTask(task.id)">X</span>
-  </li>
+  </li> 
 </template>
 
 <script>

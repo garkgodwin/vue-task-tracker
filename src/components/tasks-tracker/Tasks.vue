@@ -2,7 +2,7 @@
       <ul class="tasks">
           <Task v-for="task in tasks" v-bind:key="task.id" v-bind:task="task"
             v-on:deleteTask="deleteTask" v-on:updateTask="updateTask"/>
-      </ul>
+      </ul> 
 </template>
 
 <script>
